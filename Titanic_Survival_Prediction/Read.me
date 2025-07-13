@@ -1,2 +1,41 @@
+Titanic Survival Prediction – Random Forest Model
 
+This is a machine learning project where I built a Random Forest model to predict passenger survival on the Titanic dataset provided by Kaggle.
+
+Objective
+
+Predict which passengers survived the Titanic tragedy based on features such as age, gender, ticket class, etc.
+
+Dataset
+
+Kaggle Titanic Competition: [Link to dataset](https://www.kaggle.com/competitions/titanic)
+
+Techniques Used
+
+- Feature engineering (Title extraction from names)
+- Median imputation of missing Age values based on `Sex`, `Pclass`, and `Title`
+- Label encoding of categorical variables
+- Model training using RandomForestClassifier from `sklearn`
+- Validation split and accuracy calculation
+
+Results
+
+- Achieved ~81% validation accuracy on unseen data using Random Forest.
+- Efficient handling of missing data and irrelevant columns.
+
+Libraries
+
+- Python
+- pandas, numpy, matplotlib, seaborn
+- scikit-learn
+
+Future Improvements
+
+- Add more advanced ensemble methods like XGBoost or VotingClassifier
+- Tune hyperparameters using GridSearchCV
+- Add visualizations for feature importance
+
+Author
+
+Lochan.P.S
 
