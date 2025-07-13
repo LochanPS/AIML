@@ -59,6 +59,4 @@ submission = pd.DataFrame({
     "PassengerId": test_df["PassengerId"],
     "Survived": y_test_pred
 })
-# Optional: Save submission
-# submission.to_csv("submission.csv", index=False)
 
